@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gabriel's personal web developer portfolio. Explore my projects, skills and services.">
+    <title>Gabriel | A Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">GABRIEL<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Let's Talk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    AVAILABLE FOR COLLABORATIONS
+                </p>
+
+                <h1>
+                    Hello, I'm <span>Gabriel.</span><br>
+                    A Web Developer.
+                </h1>
+
+                <p class="hero-description">
+                    I create modern, beautiful and responsive websites
+                    that help bring ideas to life. I'm passionate about
+                    technology, creativity and building digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/" target="_blank"
+                        rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/profile.jpg"
+                         alt="Gabriel - Web Developer"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+                    <div class="image-placeholder">
+                        <span>G</span>
+                        <small>YOUR PHOTO HERE</small>
+                    </div>
+                </div>
+
+                <div class="floating-card">
+                    <span class="rose-star">✳</span>
+                    <div>
+                        <strong>Creative Developer</strong>
+                        <small>Turning ideas into reality</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRO STRIP -->
+        <section class="intro-strip">
+            <div class="container intro-inner">
+                <p>DESIGN</p>
+                <span>✳</span>
+                <p>DEVELOPMENT</p>
+                <span>✳</span>
+                <p>CREATIVITY</p>
+                <span>✳</span>
+                <p>INNOVATION</p>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="section-label">01 / ABOUT ME</p>
+                <h2>Getting to know <span>Gabriel.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-number">01</div>
+
+                <div class="about-text">
+                    <h3>
+                        I am passionate about building
+                        <span>meaningful digital experiences.</span>
+                    </h3>
+
+                    <p>
+                        I'm Gabriel, a web developer
+                        with a passion for creating clean, attractive
+                        and user-friendly websites.
+                    </p>
+
+                    <p>
+                        I enjoy learning new technologies, solving
+                        problems and turning creative ideas into
+                        functional websites. I'm continuously improving
+                        my skills and looking forward to working on
+                        exciting projects and collaborations.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's work together ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">02 / MY EXPERTISE</p>
+                    <h2>Skills & <span>Technologies.</span></h2>
+                    <p class="section-subtitle">
+                        The tools I used working and using to build websites.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span class="skill-icon">5</span>
+                        <h3>HTML5</h3>
+                        <p>Building structured and accessible web pages.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">#</span>
+                        <h3>CSS3</h3>
+                        <p>Creating beautiful layouts and responsive designs.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">JS</span>
+                        <h3>JavaScript</h3>
+                        <p>Adding interactive features to websites.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">GH</span>
+                        <h3>Git & GitHub</h3>
+                        <p>Learning version control and managing projects.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">R</span>
+                        <h3>Responsive Design</h3>
+                        <p>Making websites work across different screen sizes.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">UI</span>
+                        <h3>Web Design</h3>
+                        <p>Creating simple and user-friendly interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section container" id="projects">
+            <div class="section-heading projects-heading">
+                <div>
+                    <p class="section-label">03 / SELECTED WORK</p>
+                    <h2>My Recent <span>Projects.</span></h2>
+                </div>
+
+                <p class="section-subtitle">
+                    A selection of projects I'm building and developing.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-visual project-one">
+                        <span class="project-number">01</span>
+                        <div class="mockup-window">
+                            <div class="mockup-top">
+                                <i></i><i></i><i></i>
+                            </div>
+                            <div class="mockup-content">
+                                <span>PRIMELINE.</span>
+                                <h3>Stay Connected.<br>Anywhere.</h3>
+                                <div class="mockup-line"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>PrimeLine</h3>
+                            <p>Virtual Numbers Website Concept</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual project-two">
+                        <span class="project-number">02</span>
+                        <div class="watchlist-preview">
+                            <span>MY COLLECTION</span>
+                            <h3>Movie<br>Watchlist.</h3>
+                            <div class="movie-bars">
+                                <i></i><i></i><i></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Movie Watchlist</h3>
+                            <p>Movie Management Web Application</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>Node.js</span><span>Express</span><span>EJS</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual project-three">
+                        <span class="project-number">03</span>
+                        <div class="blog-preview">
+                            <span>THE GABBY BLOG</span>
+                            <h3>Stories.<br>Ideas.<br>Inspiration.</h3>
+                            <small>WELCOME TO MY WORLD</small>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>The Gabby Blog</h3>
+                            <p>Personal Blogging Website Concept</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+            <p class="project-note">
+                These are portfolio project previews. Add links to your
+                finished, working projects before presenting them to clients.
+            </p>
+        </section>
+
+        <!-- COLLABORATION SECTION -->
+        <section class="collaboration">
+            <div class="container collaboration-content">
+                <p class="section-label">04 / LET'S CREATE SOMETHING</p>
+                <h2>Have an idea?<br><span>Let's build it together.</span></h2>
+                <p>
+                    I'm open to learning opportunities, website projects
+                    and creative collaborations.
+                </p>
+                <a href="#contact" class="btn btn-light">
+                    Start a Conversation ↗
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section container" id="contact">
+            <div class="section-heading">
+                <p class="section-label">05 / GET IN TOUCH</p>
+                <h2>Let's talk about your <span>project.</span></h2>
+                <p class="section-subtitle">
+                    Have a project or collaboration in mind?
+                    I'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3>Let's make something great.</h3>
+                    <p>
+                        Send me a message and let's discuss
+                        how we can work together.
+                    </p>
+
+                    <div class="contact-item">
+                        <span>Email</span>
+                        <a href="mailto:your-email@example.com">
+                            chukwudiisaac120@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>WhatsApp</span>
+                        <a href="https://wa.me/2340000000000"
+                           target="_blank" rel="noopener noreferrer">
+                            Chat with me ↗
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Location</span>
+                        <p>Nigeria</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"
+                        placeholder="Enter your name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Enter your email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject"
+                        placeholder="What is this about?" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Tell me about your project..."
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message ↗
+                    </button>
+
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">GABRIEL<span>.</span></a>
+
+            <p>Designed & built with passion by Gabriel.</p>
+
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+
+        <div class="container copyright">
+            <p>© <span id="year"></span> Gabriel. All rights reserved.</p>
+            <p>Made with <span>♥</span> and creativity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
